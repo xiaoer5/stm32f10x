@@ -1,4 +1,4 @@
-## stm32f10x 简介
+# stm32f10x 电源管理
 
 以下以 stm32f103zet6 为例对 stm32f10x 系列的芯片进行介绍
 STM32芯片引脚图参考(下图来自:[Datasheet - STM32F103xC, STM32F103xD, STM32F103xE](https://www.st.com/resource/en/datasheet/stm32f103ve.pdf))
@@ -6,7 +6,7 @@ STM32芯片引脚图参考(下图来自:[Datasheet - STM32F103xC, STM32F103xD, S
 
 ![stm32f10x_pinout.png](images/stm32f10x_pinout.png)
 
-## 电源管理
+## 电源相关引脚说明
 
 在pin脚图中，和电源相关如下图所示
 
@@ -48,7 +48,6 @@ STM32芯片引脚图参考(下图来自:[Datasheet - STM32F103xC, STM32F103xD, S
 STM32的工作电压(VDD)为 **2.0 ~ 3.6V**，通过内置的电压调节器提供所需的1.8V电源，当主电源VDD 掉电后，通过VBAT 脚为实时时钟(RTC)和备份寄存器提供电源. (下图来自:[Datasheet - STM32F103xC, STM32F103xD, STM32F103xE](https://www.st.com/resource/en/datasheet/stm32f103ve.pdf) Page42)
 
 ![stm32f10x_power_supply_scheme.png](images/stm32f10x_power_supply_scheme.png)
-
 
 
 ## 参考
