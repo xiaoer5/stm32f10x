@@ -12,13 +12,15 @@
         <link rel="prev" href="..">
       
       
+        <link rel="next" href="../stm32f10x_rcc/">
+      
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Stm32f10x intro - stm32f10x</title>
+        <title>stm32f10x 电源管理 - stm32f10x</title>
       
     
     
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Stm32f10x intro
+              stm32f10x 电源管理
             
           </span>
         </div>
@@ -220,13 +222,15 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Stm32f10x intro
+    stm32f10x 电源管理
     
   </span>
   
@@ -239,7 +243,7 @@
   
   
   <span class="md-ellipsis">
-    Stm32f10x intro
+    stm32f10x 电源管理
     
   </span>
   
@@ -252,6 +256,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -260,18 +266,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#stm32f10x" class="md-nav__link">
-    <span class="md-ellipsis">
-      stm32f10x 简介
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      电源管理
+      电源相关引脚说明
     </span>
   </a>
   
@@ -294,6 +291,28 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stm32f10x_rcc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    stm32f10x 时钟管理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -311,6 +330,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -319,18 +340,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#stm32f10x" class="md-nav__link">
-    <span class="md-ellipsis">
-      stm32f10x 简介
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      电源管理
+      电源相关引脚说明
     </span>
   </a>
   
@@ -361,13 +373,11 @@
 
 
 
-  <h1>Stm32f10x intro</h1>
-
-<h2 id="stm32f10x">stm32f10x 简介</h2>
+<h1 id="stm32f10x">stm32f10x 电源管理</h1>
 <p>以下以 stm32f103zet6 为例对 stm32f10x 系列的芯片进行介绍
 STM32芯片引脚图参考(下图来自:<a href="https://www.st.com/resource/en/datasheet/stm32f103ve.pdf">Datasheet - STM32F103xC, STM32F103xD, STM32F103xE</a>)</p>
 <p><img alt="stm32f10x_pinout.png" src="../images/stm32f10x_pinout.png" /></p>
-<h2 id="_1">电源管理</h2>
+<h2 id="_1">电源相关引脚说明</h2>
 <p>在pin脚图中，和电源相关如下图所示</p>
 <p><img alt="stm32f10x_pinout_power_pin.png" src="../images/stm32f10x_pinout_power_pin.png" /></p>
 <p>以下对 VBAT、VDDA、VSSA、VDD_1 ~ VDD_11、VSS_1 ~ VSS_11 引脚进行介绍：</p>

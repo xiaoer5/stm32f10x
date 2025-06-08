@@ -9,20 +9,20 @@
       
       
       
+        <link rel="prev" href="../stm32f10x_intro/">
       
-        <link rel="next" href="stm32f10x_intro/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>stm32f10x</title>
+        <title>stm32f10x 时钟管理 - stm32f10x</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -41,7 +41,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#stm32f10x" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +76,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="stm32f10x" class="md-header__button md-logo" aria-label="stm32f10x" data-md-component="logo">
+    <a href=".." title="stm32f10x" class="md-header__button md-logo" aria-label="stm32f10x" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to MkDocs
+              stm32f10x 时钟管理
             
           </span>
         </div>
@@ -174,7 +174,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="stm32f10x" class="md-nav__button md-logo" aria-label="stm32f10x" data-md-component="logo">
+    <a href=".." title="stm32f10x" class="md-nav__button md-logo" aria-label="stm32f10x" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -184,6 +184,50 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stm32f10x_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    stm32f10x 电源管理
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
       
       
@@ -206,7 +250,7 @@
   
   
   <span class="md-ellipsis">
-    Welcome to MkDocs
+    stm32f10x 时钟管理
     
   </span>
   
@@ -214,12 +258,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Welcome to MkDocs
+    stm32f10x 时钟管理
     
   </span>
   
@@ -242,18 +286,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      时钟相关引脚说明
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      时钟类型
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      参考
     </span>
   </a>
   
@@ -263,50 +316,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="stm32f10x_intro/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    stm32f10x 电源管理
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="stm32f10x_rcc/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    stm32f10x 时钟管理
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -338,18 +347,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      时钟相关引脚说明
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      时钟类型
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      参考
     </span>
   </a>
   
@@ -371,21 +389,109 @@
 
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="stm32f10x">stm32f10x 时钟管理</h1>
+<h2 id="_1">时钟相关引脚说明</h2>
+<p>和时钟相关的pin脚如下图所示</p>
+<p><img alt="stm32f10x_pinout_rcc.png" src="../images/stm32f10x_pinout_rcc.png" /></p>
+<p><strong>OSC_IN 和 OSC_OUT</strong></p>
+<p><strong>用途：</strong></p>
+<p>用于连接外部高速晶体振荡器，为 STM32F10x 芯片提供主时钟信号。主时钟信号是 STM32F10x 内部各个模块和外设进行同步操作的基准时钟，通过连接外部晶体振荡器，可以获得更高的时钟精度和稳定性，适用于需要高精度时钟的应用场景。</p>
+<p><strong>连接方式：</strong></p>
+<p>OSC_IN 引脚接收外部晶体振荡器的时钟信号输入，OSC_OUT 引脚输出经过振荡器放大和整形后的时钟信号。这两个引脚一般需要连接到外部晶体振荡器的相应引脚上，以建立稳定的振荡回路。</p>
+<div class="admonition note">
+<p class="admonition-title">不使用外部晶振 OSC_IN 和 OSC_OUT 引脚处理</p>
+<p><strong>1. 对于 100 脚或 144 脚的芯片</strong>:</p>
+<p>OSC_IN 应接地，OSC_OUT 应悬空。</p>
+<p><strong>2. 对于少于 100 脚的芯片</strong>：</p>
+<p>有两种接法：</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>
+<p><strong>接法1: </strong>OSC_IN和OSC_OUT分别通过10K电阻接地。此方法可提高EMC性能。</p>
+</li>
+<li>
+<p><strong>接法2</strong>: 分别重映射OSC_IN和OSC_OUT至PD0和PD1，再配置PD0和PD1为推挽输出并输出’0’。 此方法可以减小功耗并(相对上面2.1)节省2个外部电阻。</p>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+</div>
+<p><strong>OSC32_IN 和 OSC32_OUT</strong></p>
+<p><strong>用途:</strong></p>
+<p>用于连接外部 <code>32.768kHz</code> 低速晶体振荡器，为STM32F10x芯片提供低功耗时钟信号。该时钟信号主要用于实时时钟（RTC）和低功耗模式下的时钟源，适用于需要长时间运行、低功耗和精确时间计量的应用场景。</p>
+<p><strong>连接方式:</strong></p>
+<p>OSC32_IN 引脚接收外部 <code>32.768kHz</code> 晶体振荡器的时钟信号输入，
+OSC32_OUT 引脚输出经过振荡器放大和整形后的时钟信号。
+这两个引脚一般需要连接到外部 32.768kHz 晶体振荡器的相应引脚上，以建立稳定的振荡回路。</p>
+<div class="admonition note">
+<p class="admonition-title">不使用外部低速晶振时的处理</p>
+<p>OSC32_IN 和 OSC32_OUT通常可以配置为普通 GPIO 引脚使用，或者悬空</p>
+</div>
+<h2 id="_2">时钟类型</h2>
+<ul>
+<li>
+<p>外部高速时钟(HSE)：外接 <code>4 ~ 16MHz</code> 的外部晶体振荡器，连接引脚 OSC_IN 和 OSC_OUT</p>
+</li>
+<li>
+<p>片内高速时钟(HSI)：内嵌出厂8MHz的RC振荡器(ARM内核使用)</p>
+</li>
+<li>
+<p>外部低速时钟(LSE)：外接 <code>32.768KHz</code> 晶振（RTC时钟（实时时钟）使用，温漂小），连接引脚 PC14-OSC32_IN 和 PC15-OSC32_OUT</p>
+</li>
+<li>
+<p>片内低速时钟(LSI)：内嵌带校准的40KHz的RC振荡器（RTC时钟（实时时钟）使用，温漂大）</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">名称</th>
+<th style="text-align: center;">缩写</th>
+<th style="text-align: center;">频率</th>
+<th>连接方式</th>
+<th>用途</th>
+<th>特性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">外部高速晶体振荡器</td>
+<td style="text-align: center;">HSE</td>
+<td style="text-align: center;">4~16MHz</td>
+<td>OSC_IN 和 OSC_OUT</td>
+<td>系统时钟/RTC</td>
+<td>成本高，温漂小</td>
+</tr>
+<tr>
+<td style="text-align: center;">内部高速RC振荡器</td>
+<td style="text-align: center;">HSI</td>
+<td style="text-align: center;">8MHz</td>
+<td>NA</td>
+<td>系统时钟</td>
+<td>成本低，温漂大</td>
+</tr>
+<tr>
+<td style="text-align: center;">外部低速晶体振荡器</td>
+<td style="text-align: center;">LSE</td>
+<td style="text-align: center;">32kHz</td>
+<td>OSC32_IN 和 OSC32_OUT</td>
+<td>RTC</td>
+<td>成本高，温漂小</td>
+</tr>
+<tr>
+<td style="text-align: center;">内部低速RC振荡器</td>
+<td style="text-align: center;">LSI</td>
+<td style="text-align: center;">40kHz</td>
+<td>NA</td>
+<td>RTC</td>
+<td>成本低，温漂大</td>
+</tr>
+</tbody>
+</table>
+<p>STM32F10x中的时钟树(图片来自：<a href="https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf">STM32F101xx, STM32F102xx, STM32F103xx, STM32F105xx and STM32F107xx advanced Arm®-based 32-bit MCUs</a>如下图所示</p>
+<p><img alt="stm32f10x_rcc_clock_tree.png" src="../images/stm32f10x_rcc_clock_tree.png" /></p>
+<h2 id="_3">参考</h2>
+<ul>
+<li><a href="https://blog.grabbyte.com/a/4cd2d78090f6009e01d020c4d293749c.html">STM32芯片OSC_IN和OSC_OUT的作用和各种接法</a></li>
+</ul>
+<p>-</p>
 
 
 
@@ -434,10 +540,10 @@ docs/
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>
